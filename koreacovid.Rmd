@@ -28,7 +28,7 @@ state of a patient must be died or alive - we adjust that as well
 # Your Question - Is dying independent of sex?
 
 
-
+## Methods
 
 
 
