@@ -50,6 +50,8 @@ basicCC <- ggplot(dd2,aes(x=result,y=prcnt*100,fill=Sex))
 basicCC + geom_bar(stat="identity", position = "dodge")
 ```
 
+When viewing the first chart, it shows that more women got COVID than men.
+However when looking at the second chart, the results show that of whole group of people that got COVID, more men were being killed with COVID than women.  
   
 
 
