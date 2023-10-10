@@ -74,6 +74,8 @@ chisqtestGC(table1)
 fisher.test(table1)
 ```
 
+Based on the result of chisqure and fisher test, the result show that if you are a male, you are twice as likely to die from COVID than women.  
+
 
 ## Conclusions
 
