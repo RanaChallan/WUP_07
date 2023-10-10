@@ -68,6 +68,11 @@ The data above confirmed the data we see in the bar chart ggplot results. Which 
 ## Inferential results 
 
 
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
 
 
 ## Conclusions
