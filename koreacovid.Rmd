@@ -54,12 +54,14 @@ When viewing the first chart, it shows that more women got COVID than men.
 However when looking at the second chart, the results show that of whole group of people that got COVID, more men were being killed with COVID than women.  
   
 
-
-
-
-
   
 ## Numerical results
+
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+``` 
 
 
 ## Inferential results 
